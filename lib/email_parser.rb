@@ -3,7 +3,11 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace
 
+<<<<<<< HEAD
 #require 'pry'
+=======
+require 'pry'
+>>>>>>> 8389413ee49a188dca86c896caffc9a9016e44f6
 
 class EmailAddressParser
  
@@ -18,7 +22,11 @@ class EmailAddressParser
    csv_emails.split.collect do |address|
      address.split(',')
     end
+<<<<<<< HEAD
     .flatten.uniq
+=======
+    #.flatten.uniq
+>>>>>>> 8389413ee49a188dca86c896caffc9a9016e44f6
   end 
 end
 
